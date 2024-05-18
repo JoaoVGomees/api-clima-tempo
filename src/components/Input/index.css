@@ -1,0 +1,22 @@
+.label-input {
+  display: block;
+  font: 600 1rem/1.5 'Poppins', sans-serif;
+  margin-bottom: 4px;
+}
+
+.nomeCidade {
+  font: 400 1rem/1.5 'Roboto', sans-serif;
+  background: #F7F7F7;
+  border: 1px solid #EDEDED;
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nomeCidade:focus {
+  outline: none;
+  border-color: #F7F7F7;
+  background: #FFF;
+  box-shadow: 0 0 0 2px #9494ff;
+}
