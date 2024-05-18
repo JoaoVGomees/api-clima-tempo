@@ -1,0 +1,23 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(243, 235, 255);
+  color: hsl(267, 20%, 10%);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media (max-width: 600px) {
+  .content {
+    flex-direction: column;
+  }
+}
