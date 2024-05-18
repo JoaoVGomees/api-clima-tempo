@@ -1,0 +1,12 @@
+.input-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 300px;
+  height: 300px;
+  background-color: #c6c6ff;
+  border-radius: 5px;
+  box-shadow: .5px .5px 4px #0000004a;
+}
