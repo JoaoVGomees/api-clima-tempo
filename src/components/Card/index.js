@@ -6,7 +6,7 @@ export function Card() {
   return (
     <div className="input-card">
       <Input content="Nome da cidade:"/>
-      <Botao content="Buscar"/>
+      <Botao content="Buscar" teste="teste"/>
     </div>
   );
 }

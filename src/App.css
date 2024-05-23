@@ -1,11 +1,13 @@
 .body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   font-family: "Poppins", sans-serif;
   background-color: rgb(243, 235, 255);
   color: hsl(267, 20%, 10%);
+  gap: 80px;
 }
 
 .content {

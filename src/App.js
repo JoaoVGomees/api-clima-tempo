@@ -1,6 +1,8 @@
 import './App.css';
 import { Card } from './components/Card';
+import CardSemana from './components/CardSemana';
 import { Information } from './components/Information';
+
 
 function App() {
   return (
@@ -8,6 +10,10 @@ function App() {
       <div className="content">
         <Card />
         <Information />
+
+      </div>
+      <div className='dias-semana'>
+        <CardSemana />
       </div>
     </div>
   );
