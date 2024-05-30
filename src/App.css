@@ -1,12 +1,13 @@
 .body {
+  padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   font-family: "Poppins", sans-serif;
   background-color: rgb(243, 235, 255);
-  color: hsl(267, 20%, 10%);
+  color: #19141f;
   gap: 80px;
 }
 
@@ -16,6 +17,16 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
+}
+
+.dias-semana {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 @media (max-width: 600px) {

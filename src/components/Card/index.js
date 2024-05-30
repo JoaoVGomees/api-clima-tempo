@@ -20,7 +20,9 @@ export function Card({ dados, setDados }) {
       <Input
         content="Nome da cidade:"
         value={cidade}
-        onChange={(e) => setCidade(e.target.value)}
+        onChange={(event) => {
+          return setCidade(event.target.value)
+        }}
       />
       <Botao onClick={handleClick} content="Buscar" />
     </div>

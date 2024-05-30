@@ -1,8 +1,10 @@
+import './index.css';
+
 export default function CardSemana() {
   return (
     <div className="card-semana">
       <h2>Dia</h2>
-      <p className="dia">Data</p>
+      <output>Data</output>
 
       <h2>Temperatura </h2>
       <output>Temperatura</output>

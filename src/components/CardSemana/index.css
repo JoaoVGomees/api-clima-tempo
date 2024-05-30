@@ -1,0 +1,17 @@
+.card-semana {
+  width: auto;
+  padding: 15px;  
+  background-color: #c6c6ff;
+  border-radius: 5px;
+  box-shadow: .5px .5px 4px #0000004a;
+  box-sizing: border-box;
+}
+
+.card-semana h2 {
+  margin: 0;
+}
+
+.card-semana output {
+  display: inline-block;
+  margin-bottom: 10px;
+}

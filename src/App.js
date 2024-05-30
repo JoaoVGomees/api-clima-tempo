@@ -6,6 +6,8 @@ import { Information } from './components/Information';
 
 
 function App() {
+  const dias = ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sabado']
+
   const [dados, setDados] = useState({
     nome: 'Cidade',
     temp: 'Temperatura',
@@ -20,6 +22,11 @@ function App() {
       </div>
       
       <div className='dias-semana'>
+        {
+          dias.map(dia => {
+            return <CardSemana />
+          }) 
+        }
         <CardSemana />
       </div>
     </div>
