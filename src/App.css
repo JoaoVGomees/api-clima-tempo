@@ -1,12 +1,15 @@
+html {
+  background-color: rgb(243, 235, 255);
+}
+
 .body {
   padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 100vh;
   font-family: "Poppins", sans-serif;
-  background-color: rgb(243, 235, 255);
   color: #19141f;
   gap: 80px;
 }

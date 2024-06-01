@@ -2,9 +2,8 @@ import './index.css';
 import { Botao } from '../Botao';
 import { Input } from '../Input';
 import { useState } from 'react';
-import { requestWeather } from '../../functions/Buscar';
 
-export function Card({ dados, setDados }) {
+export function Card({ dados, setDados, buscarClima }) {
   const [cidade, setCidade] = useState('');
 
   const handleClick = () => {
@@ -12,7 +11,7 @@ export function Card({ dados, setDados }) {
       console.log("Por favor, insira o nome da cidade.");
       return;
     }
-    requestWeather(cidade, setDados); 
+    buscarClima(cidade); 
   };
 
   return (
